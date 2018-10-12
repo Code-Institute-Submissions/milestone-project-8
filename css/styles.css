@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'100,200,300,400,500,600,700);
+
+/*..........................colors..........*/
+
+.bg-color-name-title{
+    background-color: black;
+    
+}
+.bg-color-name-title p{
+    color: white;
+}
+.bg-color-p{
+    color:white;
+}
+.bg-color{
+    background-color: black;
+}
+.bg-color-nav{
+    background-color: black;
+     
+}
+.bg-color-top-logo{
+    color:#890909;
+}
+.bg-color-bio{
+    color:white;
+    letter-spacing: 10px;
+}
+.bg-color-biography{
+    color:white;
+}
+.bg-color-timeline{
+    color: white;
+}
+.bg-color-timeline a{
+    color:white;
+}
+.bg-color-tour-dates a{
+    color:red;
+}
+.bg-color-latest{
+    color:white;
+   text-align: center;
+   letter-spacing:10px;
+   
+}
+.bg-color-footer{
+    background-color:#990000;
+}
+
+.bg-color-social-links{
+    color:white;
+}
+.bg-color-social-links {}
+
+/*..........................headings..........*/
+
+header {
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height:1px;
+}
+#title-wrap{
+    height:50px;
+}
+.name{
+    color: white;
+}
+
+.heading{
+    width: 100%   
+    padding: 0px;
+}
+/*..........................images..........*/
+
+.logo{
+    padding: 0px;
+}
+.gallery-heading{
+    text-align: center;
+    color:#404040;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: italic;
+    
+}
+.home-picture{
+    background: url('../assets/images/rolling-stones-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 369px;
+    
+    
+     transition: all .5s ease-in-out;
+    -moz transition: all .5s ease-in-out;
+    -webkit transition: all .5s ease-in-out;
+    
+   
+    height: 55em;
+    padding: 0px;
+    width: 100%;
+    
+}
+.band-picture{
+    background: url('../assets/images/rollingstones-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 369px;
+    
+    
+     transition: all .5s ease-in-out;
+    -moz transition: all .5s ease-in-out;
+    -webkit transition: all .5s ease-in-out;
+    
+   
+    height: 55em;
+    padding: 0px;
+    width: 100%;
+    
+}
+.gallery-picture{
+    
+    background: url('../assets/images/rolling-stones-7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 369px;
+    
+    
+     transition: all .5s ease-in-out;
+    -moz transition: all .5s ease-in-out;
+    -webkit transition: all .5s ease-in-out;
+    
+   
+    height: 30em;
+    padding: 0px;
+    width: 100%;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+}
+
+.gallery:hover {
+    border: 1px solid red;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+}
+
+.gallery-music{
+    margin-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  height: 25%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+.band-image-watts{
+    height: 250px;
+    width:250px;
+    margin: 70px;
+    padding-left:0;
+    padding-right:0px;
+    
+}
+.watts{
+   padding-left:70px;
+   color: white;
+   letter-spacing: 3px;
+   padding-bottom: 0px;
+}
+
+
+.band-image-richards{
+     height: 250px;
+    width:250px;
+    margin: 70px;
+    padding-left:10px;
+    padding-right:0px;
+    
+}
+.richards{
+   padding-left:130px;
+   color: white;
+   letter-spacing: 3px;
+   
+}
+.band-image-wood{
+      height: 250px;
+    width:250px;
+    margin: 70px;
+    padding-left:10px;
+    padding-right:0;
+}
+.wood{
+   padding-left:120px;
+   color: white;
+   letter-spacing: 3px;
+   padding-bottom: 0;
+}
+.band-image-jagger{
+     height: 250px;
+    width:250px;
+    margin: 70px;
+    padding-left:0px;
+    padding-right:0;
+    
+}
+.jagger{
+    padding-left:100px;
+   color: white;
+   letter-spacing: 3px;
+   padding-bottom: 0;
+}
+/*..........................navbar..........*/
+
+#nav{
+    margin: 0px;
+    padding:0;
+   
+}
+#nav li{
+    padding: 0px;
+    
+}
+
+.menuitem{
+    height: 80px;
+    text-align: center;
+    padding: 0;
+    align-items: center;
+    background-color:black;
+}
+
+.menuitem a{
+    text-decoration: none;
+    width: 100%;
+    color: red;
+    height: 120px;
+    padding: 0px;
+}
+.menuitem a i{
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+.menuitem span{
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+
+.timeline-item::before{
+     
+ position: relative;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+.timeline-item ::after{
+    content: '';
+ position: absolute;
+ width: 6px;
+ background-color: red;
+ top: 0;
+ bottom: 0;
+ left: 50%;
+ margin-left: -3px;
+}
+     
+.container{
+     padding: 10px 40px;
+ position: relative;
+ background-color: inherit;
+ width: 50%;
+}   
+
+.conainer-fluid::after{
+     content: '';
+ position: absolute;
+ width: 25px;
+ height: 25px;
+ right: -17px;
+ background-color: white;
+ border: 4px solid #FF9F55;
+ top: 15px;
+ border-radius: 50%;
+ z-index: 1;
+}
+/*..........................section..........*/
+.video{
+    float:none;
+    width:100%;
+    padding-left: 12em;
+    padding-right:12em;
+    height:35em;
+}
+.vid-2{
+   padding:30px;
+   margin-right:10px;
+   border:4px solid black;
+}
+.vid-1{
+    padding:30px;
+    border:2px solid black;
+}
+.vid-3{
+    padding:30px;
+    border:2px solid black;
+}
+.vid-4{
+    padding:30px;
+    border:2px solid black;
+}
+    /*..........................hover..........*/
+.hvr-sweep-to-bottom:before{
+    background-color: #990000;
+    height: 80px;
+}
+.playlist{
+    width: 97%;
+    padding-left:45px;
+}
+/*..........................footer..........*/
+
+footer{
+   background-color: red;
+  
+   
+}
+
+
+.social-links{
+    
+}
+
+.social-links li a i:hover{
+color: white;
+
+}
+
+
+#footer-details{
+    margin: 40px;
+    
+    
+}
+
+.container-fluid-footer{
+    background-color:  #990000;
+    color:#990000 ;
+  
+}
+
+
+     
+@media screen and (min-width: 480px){
+     
+  .section-column{
+    padding: 0 30px 30px;
+    float:none;
+    display: table-cell;
+}
+  .center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin-top: 0 auto;
+    max-width: 50%;
+}
+
