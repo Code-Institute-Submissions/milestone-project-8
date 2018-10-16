@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto'100,200,300,400,500,600,700);
 
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
 /*..........................colors..........*/
 
 .bg-color-name-title{
@@ -51,7 +53,9 @@
 .bg-color-social-links{
     color:white;
 }
-.bg-color-social-links {}
+.bg-color-social-links a {
+    background-color: green;
+}
 
 /*..........................headings..........*/
 
@@ -61,9 +65,7 @@ header {
     width:100%;
     height:1px;
 }
-#title-wrap{
-    height:50px;
-}
+
 .name{
     color: white;
 }
@@ -71,6 +73,29 @@ header {
 .heading{
     width: 100%   
     padding: 0px;
+}
+.logo{
+    padding: 0px;
+}
+.gallery-heading{
+    text-align: center;
+    color:#404040;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: italic;
+    
+}
+.bookings-heading{
+    color:white;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 100px;
+    font-weight: 500;
+    margin-left: 3em;
+    
+   
+ 
 }
 /*..........................images..........*/
 
@@ -139,6 +164,24 @@ header {
     height: 30em;
     padding: 0px;
     width: 100%;
+}
+.bookings-picture{
+    background: url('../assets/images/rollingstones-bookings.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 369px;
+    
+    
+     transition: all .5s ease-in-out;
+    -moz transition: all .5s ease-in-out;
+    -webkit transition: all .5s ease-in-out;
+    
+   
+    height: 55em;
+    margin-bottom:40px;
+    width: 100%;
+    
 }
 .gallery {
     margin: 5px;
@@ -231,6 +274,25 @@ header {
    letter-spacing: 3px;
    padding-bottom: 0;
 }
+/*..........................form..........*/
+.form-group{
+    width:70%;
+    height:100%;
+    padding-top: 1em;
+    border-width:20px;
+    border-color:red;
+}
+.comment-box{
+    
+    
+}
+.bookings-form{
+    padding-top:150px;
+}
+
+
+
+
 /*..........................navbar..........*/
 
 #nav{
@@ -359,8 +421,10 @@ footer{
 }
 
 
-.social-links{
-    
+.social-links a{
+    color:green;
+    font-size: 2em;
+    letter-spacing: 2em
 }
 
 .social-links li a i:hover{
@@ -383,7 +447,7 @@ color: white;
 
 
      
-@media screen and (min-width: 480px){
+@media (min-width: 992px){
      
   .section-column{
     padding: 0 30px 30px;
@@ -396,4 +460,3 @@ color: white;
     margin-top: 0 auto;
     max-width: 50%;
 }
-
