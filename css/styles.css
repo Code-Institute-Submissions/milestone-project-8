@@ -23,6 +23,7 @@
 }
 .bg-color-top-logo{
     color:#890909;
+    margin-left:50px;
 }
 .bg-color-bio{
     color:white;
@@ -93,10 +94,11 @@ header {
     font-size: 100px;
     font-weight: 500;
     margin-left: 3em;
-    
-   
- 
 }
+
+
+
+
 /*..........................images..........*/
 
 .logo{
@@ -403,6 +405,31 @@ header {
     padding:30px;
     border:2px solid black;
 }
+#input-first-name{
+    border-color:red;
+}
+.btn-default{
+    margin-left: 200px;
+    border-color:red;
+    
+}
+#input-contact-number{
+  
+    border-color:red;
+}
+#inputEmail{
+  
+    border-color:red;
+}
+#details {
+   margin-left: 185px;
+  
+   border-color:red;
+   width:500px;
+   
+} 
+
+
     /*..........................hover..........*/
 .hvr-sweep-to-bottom:before{
     background-color: #990000;
